@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-29T10:54:53.563708+00:00",
+  "status": "PASS",
+  "tests": 15,
+  "command": "python -m unittest -v test_clean_csv.py",
+  "helper_sha256": "c51f1943087dfebbfd2f7d9d26d71e3714779218a7c097cdcfae1b6197d531df",
+  "checks": [
+    "Unrequested values retained, including leading zeroes and quoted embedded newlines",
+    "Explicit trimming, mapping, blank-row removal and exact deduplication",
+    "Ambiguous headers and malformed row refusal",
+    "Input/row/column limits including a149998-character field within150000bytes",
+    "Standalone CLI reproduction and no overwrite",
+    "Staged sample input/output hashes match summary exactly"
+  ],
+  "dataset": "synthetic; no client data",
+  "paid_customers_represented": 0
+}

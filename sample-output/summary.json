@@ -1,0 +1,15 @@
+{
+  "cells_trimmed": 2,
+  "columns": 3,
+  "duplicate_rows_removed": 1,
+  "duplicate_rule": "Complete exact rows after requested transformations; first retained.",
+  "empty_rows_removed": 1,
+  "empty_value_rule": "Only zero-length strings; after trimming if explicitly selected.",
+  "headers_renamed": 1,
+  "input_rows": 4,
+  "input_sha256": "2ef2417ccf1d6538987b083b6ff1e5bf022aea5f721f427c368f63dbcac0d24c",
+  "output_rows": 2,
+  "output_sha256": "203a6f4d7d36ee0d18f881579a4bddd554fdbd687c4a343f23ed449cf96f94d1",
+  "row_order_preserved": true,
+  "serialization": "UTF-8 without BOM; CRLF record endings; CSV quoting may change."
+}

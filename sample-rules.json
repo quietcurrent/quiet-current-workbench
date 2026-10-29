@@ -1,0 +1,7 @@
+{
+  "delimiter": ",",
+  "header_map": {" Agent ": "agent"},
+  "trim_cells": true,
+  "drop_empty_rows": true,
+  "deduplicate": true
+}

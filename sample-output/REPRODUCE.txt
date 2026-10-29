@@ -1,0 +1,5 @@
+Save your original input unchanged as input.csv. Run:
+python clean_csv.py input.csv --rules rules.json --output-dir reproduced
+The output directory must not already exist. No dependencies or network calls.
+Compare SHA-256 of reproduced/cleaned.csv with summary.json output_sha256.
+CSV quoting/record endings are canonicalized; unrequested cell values stay unchanged.
